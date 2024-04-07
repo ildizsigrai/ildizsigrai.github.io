@@ -1,50 +1,67 @@
 import React from 'react';
-import './szolgaltatasok.css'; // Import CSS file
+import './szolgaltatasok.css';
 
 function SzolgaltatasComponent() {
   return (
     <div className="sz-container">
       <div>
         <h4>
-          Bemutatkozás
+          Szolgáltatásaink
         </h4>
         <p className="heading">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Számunkra az Ön projektje nem csupán egy megoldandó feladat, hanem a közös siker felé
+        vezető út fontos mérföldköve! A PROSPERIO-val való együttműködés eredményeként Ön
+        egy olyan csapatra talál, amely nem csak a projektet, hanem az üzleti sikerét is szívügyének
+        tekinti.
         </p>
       </div>
       <div className="card-container">
-        <h5 className="title">Célunk</h5>
+        <h5 className="title">PÁLYÁZATÍRÁS</h5>
         <p className="description">
-          Célunk hosszú távú üzleti együttműködések létrehozása, valódi, értékteremtő beruházások
-          megvalósulásának menedzsmentje, ügyfélközpontú, agilis szemlélet biztosítása partnereink
-          számára.
+          A pályázatírási szolgáltatásunk a projektötlettől a támogatói döntésig tart. Első lépésként
+          felmérjük ügyfeleink fejlesztési igényeit, melyek lehetnek akár beruházások, külpiacra jutás,
+          kutatás-fejlesztés és megkeressük az ezekhez illeszkedő elérhető pályázati lehetőségeket.
+          Kiemelt figyelmet fordítunk arra, hogy megfelelően előkészített, valós piaci igényeken
+          alapuló, az adott pályázati felhíváshoz teljes mértékben illeszkedő projektötletek kerüljenek
+          benyújtásra. A pályázati forrásból megvalósuló fejlesztések esetében a támogatás
+          odaítélése csak az első lépcsőfok. Ahhoz, hogy a megítélt támogatást teljes mértékben le
+          lehessen hívni, már a pályázatírási szakaszban gondolni kell arra, hogy fogjuk teljesíteni a
+          projekthez kapcsolódó kötelező vállalásokat.
         </p>
       </div>
       <div className="card-container">
-        <h5 className="title">Teljeskörű Szolgáltatások Projektfejlesztéshez</h5>
+        <h5 className="title">PROJEKTMENEDZSMENT</h5>
         <p className="description">
-          A PROSPERIO-val való együttműködés a projekt ötlettől indul, még a konkrét pályázati felhívások megjelenése előtt.
-          Minél korábban kapcsolódunk be egy projekt fejlesztési folyamatába, annál teljeskörűbb szolgáltatást tudunk nyújtani.
-          Szakértő csapatunk segíti a szakmai tartalom kidolgozását, lehetséges megvalósítási helyszínek felkutatását,
-          valamint tanácsokkal látja el ügyfeleinket a megfelelő tervezők, kivitelezők vagy beszállítók kiválasztásában.
+          A pozitív támogatói döntések után, annak érdekében, hogy a megítélt támogatást teljes
+          mértékben, szabályszerűen le lehessen hívni, projektmenedzsment szolgáltatásunkkal állunk
+          ügyfeleink rendelkezésére. Ennek keretén belül szakértőink végig kísérik a projektek
+          megvalósítását és szakmai támogatást nyújtanak a támogatás szabályszerű
+          elszámolásában, az esetleges műszaki-szakmai tartalom változások bejelentésében,
+          valamint részt vesznek a helyszíni ellenőrzéseken is. Hiszünk a folyamatos
+          kapcsolattartásban, velünk nem csak a kifizetési kérelmek benyújtása előtt fog egyeztetni.
+          Szolgáltatásunk végigkíséri a teljes megvalósítást az első megrendeléstől a fenntartási
+          időszak zárásáig.
         </p>
       </div>
       <div className="card-container">
-        <h5 className="title">Ügyfeleink Sikeréért Dolgozunk</h5>
+        <h5 className="title">HITELÜGYINTÉZÉS</h5>
         <p className="description">
-          A PROSPERIO nem csak projektkezelő, hanem üzleti sikerpartnere is ügyfeleinek.
-          Számunkra az Ön projektje nem csupán egy feladat, hanem a közös siker felé vezető út fontos állomása. 
-          Együttműködésünk eredményeként Ön egy olyan csapatra talál, amely nem csupán a projektet, 
-          hanem az üzleti sikerét is szívügyének tekinti.
+          A vissza nem térítendő támogatások mellett segíteni tudunk egyéb kamattámogatott hitelek
+          ügyintézésében is. A konkrét pályázati kiírás után teljeskörű tájékoztatást tudunk adni
+          ügyfeleinknek abban, hogy az adott pályázat mellé milyen egyéb források bevonása
+          lehetséges a saját forráson kívül úgy, hogy a projektek az elérhető legmagasabb támogatási
+          intenzitással rendelkezzenek.
         </p>
       </div>
       <div className="card-container">
-        <h5 className="title">Szakértelem és Rugalmasság Összefonódása</h5>
+        <h5 className="title">TŐKEBEVONÁSI TANÁCSADÁS</h5>
         <p className="description">
-        A PROSPERIO kiválóan ötvözi szakértelmét és rugalmasságát az ügyfelek igényeinek kielégítése érdekében. 
-        Szakértő tanácsadóink felkészültek a legkülönfélébb projektek kezelésére, legyen szó élelmiszeripari beruházásokról, 
-        kutatás-fejlesztésről vagy külpiaci növekedés támogatásáról. 
-        Rugalmasságunk révén alkalmazkodunk az egyedi projektek sajátosságaihoz, biztosítva a hatékony és eredményes együttműködést.
+          A pályázati források nem minden esetben az elérhető legjobb konstrukciók a vállalatok
+          növekedésének támogatására. Tanácsadói tevékenységünk keretén belül segíteni tudjuk az
+          olyan nagy növekedési potenciállal rendelkező induló vállalkozások tőkebevonását,
+          amelyeknek életszakaszukból adódóan fejlesztéseik megvalósításához jobban illeszkedik
+          egy tőkebefektető. Ebben az esetben vállaljuk a tőkebevonás teljeskörű menedzsmentjét az
+          üzleti-pénzügyi terv elkészítésétől az ügyletek lezárásáig.
         </p>
       </div>
     </div>
