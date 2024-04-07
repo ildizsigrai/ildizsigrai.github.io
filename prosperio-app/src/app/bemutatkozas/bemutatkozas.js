@@ -13,20 +13,39 @@ function BemutatkozasComponent() {
         </p>
       </div>
       <div className="card-container">
-        <h5 className="title">Noteworthy technology acquisitions 2021</h5>
-        <p className="description">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+        <h5 className="title">Célunk</h5>
+        <p className="description">
+          Célunk hosszú távú üzleti együttműködések létrehozása, valódi, értékteremtő beruházások
+          megvalósulásának menedzsmentje, ügyfélközpontú, agilis szemlélet biztosítása partnereink
+          számára.
+        </p>
       </div>
       <div className="card-container">
-        <h5 className="title">Noteworthy technology acquisitions 2021</h5>
-        <p className="description">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+        <h5 className="title">Teljeskörű Szolgáltatások Projektfejlesztéshez</h5>
+        <p className="description">
+          A PROSPERIO-val való együttműködés a projekt ötlettől indul, még a konkrét pályázati felhívások megjelenése előtt.
+          Minél korábban kapcsolódunk be egy projekt fejlesztési folyamatába, annál teljeskörűbb szolgáltatást tudunk nyújtani.
+          Szakértő csapatunk segíti a szakmai tartalom kidolgozását, lehetséges megvalósítási helyszínek felkutatását,
+          valamint tanácsokkal látja el ügyfeleinket a megfelelő tervezők, kivitelezők vagy beszállítók kiválasztásában.
+        </p>
       </div>
       <div className="card-container">
-        <h5 className="title">Noteworthy technology acquisitions 2021</h5>
-        <p className="description">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+        <h5 className="title">Ügyfeleink Sikeréért Dolgozunk</h5>
+        <p className="description">
+          A PROSPERIO nem csak projektkezelő, hanem üzleti sikerpartnere is ügyfeleinek.
+          Számunkra az Ön projektje nem csupán egy feladat, hanem a közös siker felé vezető út fontos állomása. 
+          Együttműködésünk eredményeként Ön egy olyan csapatra talál, amely nem csupán a projektet, 
+          hanem az üzleti sikerét is szívügyének tekinti.
+        </p>
       </div>
       <div className="card-container">
-        <h5 className="title">Noteworthy technology acquisitions 2021</h5>
-        <p className="description">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+        <h5 className="title">Szakértelem és Rugalmasság Összefonódása</h5>
+        <p className="description">
+        A PROSPERIO kiválóan ötvözi szakértelmét és rugalmasságát az ügyfelek igényeinek kielégítése érdekében. 
+        Szakértő tanácsadóink felkészültek a legkülönfélébb projektek kezelésére, legyen szó élelmiszeripari beruházásokról, 
+        kutatás-fejlesztésről vagy külpiaci növekedés támogatásáról. 
+        Rugalmasságunk révén alkalmazkodunk az egyedi projektek sajátosságaihoz, biztosítva a hatékony és eredményes együttműködést.
+        </p>
       </div>
     </div>
   );

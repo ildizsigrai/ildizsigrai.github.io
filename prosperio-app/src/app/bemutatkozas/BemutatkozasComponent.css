@@ -1,13 +1,11 @@
 .container {
-  height: 100vh;
   display: flex;
-  min-height: 100vh;
-  justify-content: center; /* Center the cards horizontally */
-  align-items: center; /* Center the cards vertically */
-  gap: 1rem; /* Add gap between cards */
-  flex-wrap: wrap; /* Allow cards to wrap to the next line */
-  padding: 2rem; /* Add larger padding to the container */
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem;
   margin-bottom: auto;
+  
 }
 
 .heading {
@@ -33,6 +31,7 @@ h4,
   max-width: calc(50% - 1rem); /* Set max-width for responsiveness */
   padding: 2rem; /* Increase padding for more space inside the cards */
   background-color: #ffffff;
+  align-items: center; /* Center items horizontally */
   border: 1px solid #e2e8f0;
   border-radius: 1rem; /* Make the cards more square-shaped */
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
@@ -57,4 +56,10 @@ h4,
 .description {
   font-size: 1.25rem; /* Increase description font size */
   color: #4a5568;
+}
+@media (max-width: 768px) {
+  .card-container {
+    flex: 0 0 calc(100% - 1rem);
+    max-width: calc(100% - 1rem);
+  }
 }

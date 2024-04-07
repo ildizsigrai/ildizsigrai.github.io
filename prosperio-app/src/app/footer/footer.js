@@ -1,29 +1,4 @@
-// import {
-//   Footer,
-//   FooterBrand,
-//   FooterCopyright,
-//   FooterDivider,
-//   FooterIcon,
-//   FooterLink,
-//   FooterLinkGroup,
-//   FooterTitle,
-// } from 'flowbite-react';
-// import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter } from 'react-icons/bs';
 
-
-// export default function FooterComponent() {
-//   return (
-//     <Footer container>
-//       <Footer.Copyright href="#" by="Prosperio" year={2024} />
-//       <Footer.LinkGroup>
-//         <Footer.Link href="#">About</Footer.Link>
-//         <Footer.Link href="#">Privacy Policy</Footer.Link>
-//         <Footer.Link href="#">Licensing</Footer.Link>
-//         <Footer.Link href="#">Contact</Footer.Link>
-//       </Footer.LinkGroup>
-//     </Footer>
-//   );
-// }
 import React from 'react';
 import './footer.css';
 
