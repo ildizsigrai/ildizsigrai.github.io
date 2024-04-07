@@ -1,0 +1,6 @@
+/* footer.css */
+.footer-container {
+  background-color: red;
+  height: 100vh; /* Adjust height as needed */
+  margin-top: auto; /* Added margin-top: auto */
+}

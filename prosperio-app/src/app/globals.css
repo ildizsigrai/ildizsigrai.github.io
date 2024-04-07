@@ -1,0 +1,30 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --light-blue: #337599;
+  --medium-blue: #245771;
+  --light-blue2: #3E8CB8;
+  --white: #ffffff;
+}
+
+body {
+  color: rgb(var(--medium-blue));
+  background: var(--white);
+  font-family: 'Montserrat', sans-serif;
+}
+h1{
+  color: var(--light-blue);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
