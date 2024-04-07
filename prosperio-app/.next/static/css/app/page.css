@@ -70,3 +70,71 @@ h4,
     max-width: calc(100% - 1rem);
   }
 }
+/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/app/szolgaltatasok/szolgaltatasok.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************/
+.sz-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem;
+    margin-bottom: auto;
+    background-color: #337599;
+  }
+  
+  .heading {
+    font-size: 1.25rem;
+    color: #4a5568;
+    align-items: center;
+    text-align: center; /* Center the heading */
+    margin-bottom: 1.25rem;
+  }
+  
+  /* Style h4 and p as the title and description */
+  h4,
+  .heading {
+    margin-bottom: 1.75rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #2d3748;
+      text-align: center; /* Center the heading */
+  
+  }
+  .card-container {
+    flex: 0 0 calc(50% - 1rem); /* Set width for two cards in a row */
+    max-width: calc(50% - 1rem); /* Set max-width for responsiveness */
+    padding: 2rem; /* Increase padding for more space inside the cards */
+    background-color: #ffffff;
+    align-items: center; /* Center items horizontally */
+    border: 1px solid #e2e8f0;
+    border-radius: 1rem; /* Make the cards more square-shaped */
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+    text-decoration: none; /* Remove default link underline */
+    color: #2d3748;
+  }
+  
+  .card-container:hover {
+    background-color: #edf2f7;
+    border-color: #cbd5e0;
+    transform: translateY(-2px);
+  }
+  
+  .title {
+    margin-bottom: 1rem; /* Increase margin between title and description */
+    font-size: 1.5rem; /* Increase title font size */
+    font-weight: 700;
+    color: #2d3748;
+  }
+  
+  .description {
+    font-size: 1.25rem; /* Increase description font size */
+    color: #4a5568;
+  }
+  @media (max-width: 768px) {
+    .card-container {
+      flex: 0 0 calc(100% - 1rem);
+      max-width: calc(100% - 1rem);
+    }
+  }
