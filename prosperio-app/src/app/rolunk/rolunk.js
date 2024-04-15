@@ -1,4 +1,5 @@
 
+import Image from 'next/image';
 
 const links = [
     { name: 'Szakterületek', href: '#' },
@@ -13,10 +14,10 @@ const links = [
   export default function RolunkComponent() {
     return (
       <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
-        <img
-            src="../../../images/hero_image.jpg"
+        <Image
+            src="/assets/hero_image.jpg"
             alt="Hero Image"
-            layout="fill"
+            fill
             className="absolute inset-0 -z-10 object-cover object-right md:object-center"
         />
         <div
