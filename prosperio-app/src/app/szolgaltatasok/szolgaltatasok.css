@@ -29,14 +29,14 @@
   .card-container {
     flex: 0 0 calc(50% - 1rem); /* Set width for two cards in a row */
     max-width: calc(50% - 1rem); /* Set max-width for responsiveness */
-    padding: 2rem; /* Increase padding for more space inside the cards */
+    padding: 1rem; /* Increase padding for more space inside the cards */
     background-color: #ffffff;
-    align-items: center; /* Center items horizontally */
+    align-items: center;
     border: 1px solid #e2e8f0;
-    border-radius: 1rem; /* Make the cards more square-shaped */
+    border-radius: 1rem;
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
     transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, transform 0.2s ease-in-out;
-    text-decoration: none; /* Remove default link underline */
+    text-decoration: none;
     color: #2d3748;
   }
   
@@ -47,15 +47,19 @@
   }
   
   .title {
-    margin-bottom: 1rem; /* Increase margin between title and description */
-    font-size: 1.5rem; /* Increase title font size */
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
     font-weight: 700;
     color: #2d3748;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .description {
-    font-size: 1.25rem; /* Increase description font size */
+    font-size: 1rem;
     color: #4a5568;
+    margin: 10px;
   }
   @media (max-width: 768px) {
     .card-container {
