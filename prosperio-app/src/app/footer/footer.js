@@ -87,23 +87,23 @@ function FooterComponent() {
             <div className="">
               <h6
                 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
-                Products
+                Szolgáltatások
               </h6>
               <p className="mb-4">
                 <a className="text-neutral-600 dark:text-neutral-200"
-                >Angular</a>
+                >Pályázatírás</a>
               </p>
               <p className="mb-4">
                 <a className="text-neutral-600 dark:text-neutral-200"
-                >React</a>
+                >Projektmenedzsment</a>
               </p>
               <p className="mb-4">
                 <a className="text-neutral-600 dark:text-neutral-200"
-                >Vue</a>
+                >Hitelügyintézés</a>
               </p>
               <p>
                 <a className="text-neutral-600 dark:text-neutral-200"
-                >Laravel</a>
+                >Tőkebevonási tanácsadás</a>
               </p>
             </div>
             {/* <!-- Useful links section --> */}
