@@ -1,3 +1,7 @@
-# Ignore node_modules folder
 node_modules/
 .next/
+/.vscode
+package-lock.json
+/lib
+
+.env
