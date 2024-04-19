@@ -1,5 +1,5 @@
 import React from 'react';
-import './BemutatkozasComponent.css'; // Import CSS file
+import './BemutatkozasComponent.css';
 
 function BemutatkozasComponent() {
   return (

@@ -12,7 +12,7 @@ h1 {
   font-size: 3.25rem;
   color: #4a5568;
   align-items: center;
-  text-align: center; /* Center the heading */
+  text-align: center;
   margin-bottom: 1.25rem;
 }
 p {
@@ -20,14 +20,14 @@ p {
 }
 
 .title {
-  margin-bottom: 1rem; /* Increase margin between title and description */
-  font-size: 1.5rem; /* Increase title font size */
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
   font-weight: 700;
   color: #2d3748;
 }
 
 .description {
-  font-size: 1.25rem; /* Increase description font size */
+  font-size: 1.25rem;
   color: #4a5568;
 }
 @media (max-width: 768px) {

@@ -5,7 +5,6 @@ import BemutatkozasComponent from "./bemutatkozas/bemutatkozas";
 import SzolgaltatasComponent from "./szolgaltatasok/szolgaltatasok";
  
 import './globals.css';
-import { Button } from 'flowbite-react';
 
 export default function Home() {
   return (
