@@ -13,10 +13,10 @@ export default function HeaderComponent() {
       </Navbar.Brand>
       <Navbar.Toggle />
       <Navbar.Collapse>
-        <Navbar.Link href="#" active>
+        <Navbar.Link href="/" active>
           Home
         </Navbar.Link>
-        <Navbar.Link as={Link} href="#">
+        <Navbar.Link as={Link} href="/rolunk">
           Rólunk
         </Navbar.Link>
         <Navbar.Link href="#">Szolgáltatások</Navbar.Link>

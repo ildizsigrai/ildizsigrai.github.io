@@ -10,7 +10,11 @@ function FooterComponent() {
         <div
           className="flex items-center justify-center border-b-2 border-neutral-200 p-6 dark:border-neutral-500 lg:justify-between">
           <div className="mr-12 hidden lg:block">
-            <span>Lépjen velünk kapcsolatba:</span>
+            <span>
+              Amennyiben már rendelkezik fejlesztési elképzelésekkel, akkor a konkrét pályázati
+              felhívások ismerete nélkül is fel tudja velünk venni a kapcsolatot az alábbi
+              elérhetőségeinken:
+            </span>
           </div>
           {/* <!-- Social network icons container --> */}
           <div className="flex justify-center">
@@ -189,11 +193,18 @@ function FooterComponent() {
 
         {/* <!--Copyright section--> */}
         <div className="bg-neutral-200 p-6 text-center dark:bg-neutral-700">
-          <span>© 2024 Copyright:</span>
+          <span>
+            © 2024 Copyright:
+            A Prosperio Kft honlapja kizárólag tájékoztatási célokat szolgál. 
+            A honlap az azt látogatók és az iroda között nem hoz létre megbízási jogviszonyt.
+            Ezt a honlapot a XXXX nyilvántartási számon bejegyzett 
+            Prosperio Kft tartja fenn az XXXX szabályzatok szerint, melyek az ügyféljogokra vonatkozó tájékoztatással
+            együtt a www.XXX.hu, valamint a www.XXXX.hu honlapon találhatóak.
+          </span>
           <a
             className="font-semibold text-neutral-600 dark:text-neutral-400"
             href="https://tw-elements.com/"
-          >Prosperio Kft</a>
+          >COPYRIGHT Prosperio Kft. MINDEN JOG FENNTARTVA.</a>
         </div>
       </footer>
     </div>
