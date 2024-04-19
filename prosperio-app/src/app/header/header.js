@@ -2,11 +2,13 @@
 
 import Link from 'next/link';
 import { Navbar } from 'flowbite-react';
+// import Logo from '../../assets/logo.svg'
 
 export default function HeaderComponent() {
     return (
     <Navbar fluid rounded>
       <Navbar.Brand>
+        {/* <img src={Logo} alt="Prosperio Logo" className="logo" /> */}
         <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Prosperio </span>
       </Navbar.Brand>
       <Navbar.Toggle />
