@@ -7,7 +7,7 @@ function BemutatkozasComponent() {
       <div className="heading">
         <h1>RÓLUNK</h1>
       </div>
-      <div>
+      <div className="desc-container">
         <p className="description">
           A PROSPERIO a hazai üzleti tanácsadó szektor friss szereplője. Szakértőink tíz éves
           szakmai tapasztalattal rendelkeznek a vissza nem térítendő támogatásból megvalósult
