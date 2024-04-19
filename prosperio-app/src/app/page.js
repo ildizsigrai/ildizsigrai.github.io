@@ -1,3 +1,4 @@
+import HeaderComponent from "./header/header";
 import FooterComponent from "./footer/footer";
 import HeroComponent from "@/hero/hero";
 import RolunkComponent from "./rolunk/rolunk";
@@ -10,6 +11,7 @@ export default function Home() {
   return (
     <>
       <body>
+        <HeaderComponent/>
         <div>
           <HeroComponent/>
         </div>
