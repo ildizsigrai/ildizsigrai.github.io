@@ -48,8 +48,7 @@ const links = [
           <div className="mx-auto max-w-2xl lg:mx-0">
             <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">Prosperio</h2>
             <p className="mt-6 text-lg leading-8 text-silver font-bold">
-              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-              fugiat veniam occaecat fugiat aliqua.
+            Célunk a hosszú távú, eredményes üzleti kapcsolatok építése és a valódi értékteremtő beruházások támogatása, miközben ügyfeleinknek agilis és személyre szabott megoldásokat kínálunk.
             </p>
           </div>
           <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
