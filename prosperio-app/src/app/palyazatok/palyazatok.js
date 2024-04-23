@@ -4,7 +4,7 @@ import "./palyazatok.css"
 function PalyazatokComponent() {
   return (
     <div className="container">
-      <div className="heading">
+      <div className="p-heading">
         <h1>Aktuális pályázatok</h1>
       </div>
       <div className="desc-container">
@@ -38,7 +38,7 @@ function PalyazatokComponent() {
           elérheti 40-60% közötti támogatási intenzitás mellett az ország egész területén.
         </p>
       </div>
-      <div className="heading">
+      <div className="p-heading">
         <h1>Miért válasszon minket?</h1>
       </div>
       <div className="desc-container">

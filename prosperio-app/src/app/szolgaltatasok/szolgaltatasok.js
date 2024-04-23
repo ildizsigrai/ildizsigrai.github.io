@@ -5,10 +5,10 @@ function SzolgaltatasComponent() {
   return (
     <div className="sz-container">
       <div>
-        <h4>
+        <h4 className="sz-header">
           Szolgáltatásaink
         </h4>
-        <p className="heading">
+        <p className="sz-heading">
         Számunkra az Ön projektje nem csupán egy megoldandó feladat, hanem a közös siker felé
         vezető út fontos mérföldköve! A PROSPERIO-val való együttműködés eredményeként Ön
         egy olyan csapatra talál, amely nem csak a projektet, hanem az üzleti sikerét is szívügyének

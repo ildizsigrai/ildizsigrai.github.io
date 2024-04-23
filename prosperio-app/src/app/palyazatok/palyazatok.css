@@ -6,8 +6,9 @@
   padding-top: 20px;
 }
 
-.heading {
+.p-heading {
   margin-top: 40px;
+  font-weight: bold;
 }
 
 .list {

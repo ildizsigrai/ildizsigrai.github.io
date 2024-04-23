@@ -4,7 +4,7 @@ import './BemutatkozasComponent.css';
 function BemutatkozasComponent() {
   return (
     <div className="container">
-      <div className="heading">
+      <div className="b-heading">
         <h1>RÓLUNK</h1>
       </div>
       <div className="desc-container">
