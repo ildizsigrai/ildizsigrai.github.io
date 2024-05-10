@@ -14,7 +14,7 @@ const stats = [
 
 export default function RolunkComponent() {
   return (
-    <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
+    <div id="rolunk" className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
       <Image
         src={heroImage}
         alt="Hero Image"

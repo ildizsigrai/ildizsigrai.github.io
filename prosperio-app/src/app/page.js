@@ -16,8 +16,6 @@ export default function Home() {
         <div>
           <HeroComponent/>
         </div>
-        <h1>card</h1>
-        <CardComponent/>
         <div>
           <RolunkComponent/>
         </div>
@@ -31,6 +29,8 @@ export default function Home() {
         <div>
           <PalyazatokComponent/>
         </div>
+        <h1>card</h1>
+        <CardComponent/>
         <div>
           <FooterComponent/>
         </div>

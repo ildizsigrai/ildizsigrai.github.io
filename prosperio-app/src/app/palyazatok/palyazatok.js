@@ -3,7 +3,7 @@ import "./palyazatok.css"
 
 function PalyazatokComponent() {
   return (
-    <div className="container">
+    <div id="palyazatok" className="container">
       <div className="p-heading">
         <h1>Aktuális pályázatok</h1>
       </div>
