@@ -3,7 +3,7 @@ import './szolgaltatasok.css';
 
 function SzolgaltatasComponent() {
   return (
-    <div className="sz-container">
+    <div className="sz-container" style={{ backgroundImage: 'radial-gradient(circle, #3e8cb8, #c7e6f6)' }}>
       <div>
         <h4 className="sz-header">
           Szolgáltatásaink

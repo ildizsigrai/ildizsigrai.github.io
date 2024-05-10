@@ -10,7 +10,7 @@ export default function HeroComponent() {
       {/* Navbar */}
         {/* Mobile Menu */}
       {/* Hero Content */}
-      <div className="absolute inset-x-0 top-0 w-full h-full bg-gradient-to-tr from-[#ff80b5] to-[#9089fc]">
+      <div className="absolute inset-x-0 top-0 w-full h-full" style={{ backgroundImage: 'radial-gradient(circle, #3e8cb8, #c7e6f6)' }}>
         <div className="flex flex-col justify-center items-center h-full max-w-2xl mx-auto px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight text-black sm:text-6xl">
