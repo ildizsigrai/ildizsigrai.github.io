@@ -1,4 +1,3 @@
-
 import Image from 'next/image';
 import heroImage from '../../assets/hero_image.jpg';
 
@@ -6,11 +5,11 @@ const links = [
   { name: 'Szolgáltatások', href: '#' },
   { name: 'Célunk', href: '#' },
   { name: 'Kapcsolat', href: '#' },
-]
+];
 const stats = [
   { name: 'Év tapasztalat', value: '12' },
   { name: 'Szakterület', value: '40' },
-]
+];
 
 export default function RolunkComponent() {
   return (
