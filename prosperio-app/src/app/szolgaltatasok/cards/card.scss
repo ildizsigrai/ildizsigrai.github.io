@@ -1,0 +1,39 @@
+.card-container {
+  margin-bottom: 20px; /* Example margin */
+  border: none !important;
+}
+
+.card-image {
+  border-radius: 8px; /* Example border-radius */
+}
+
+.card-title {
+  font-weight: bold; /* Example font-weight */
+}
+
+.card-description {
+  line-height: 1.5; /* Example line-height */
+}
+
+.arrow-button {
+  background-color: var(--light-blue);
+  color: white;
+  padding: 8px;
+  border-radius: 50%;
+  z-index: 10;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+}
+.arrow-button:hover {
+  background-color: var(--medium-blue);
+}
+
+.left-arrow {
+  left: 0;
+}
+
+.right-arrow {
+  right: 0;
+}
