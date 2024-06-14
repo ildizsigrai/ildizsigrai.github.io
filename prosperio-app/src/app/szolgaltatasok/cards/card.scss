@@ -1,6 +1,10 @@
-.card-container {
-  margin-bottom: 20px; /* Example margin */
+#card-container {
+  margin: 50px; /* Example margin */
   border: none !important;
+  width: 400px;
+  :hover {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1); /* Example box-shadow */
+  }
 }
 
 .card-image {

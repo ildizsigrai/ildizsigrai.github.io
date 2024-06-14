@@ -2,7 +2,6 @@
 
 import React, { useRef } from 'react';
 import 'tailwindcss/tailwind.css';
-
 import './card.scss';
 
 const CardComponent = () => {
@@ -55,35 +54,36 @@ const CardComponent = () => {
     scrollContainerRef.current.scrollBy({ left: 300, behavior: 'smooth' });
   };
 
-
   return (
-      <div className="relative flex items-center justify-center">
-        <button onClick={scrollLeft} className="arrow-button left-arrow">
-          &lt;
-        </button>
-        <div
-          ref={scrollContainerRef}
-          className="flex overflow-x-auto space-x-4 p-4 card-container w-screen overflow-hidden"
-          style={{ scrollSnapType: 'x mandatory', maxWidth: '100vw' }}
-        >
-          {slides.map((slide) => (
-            <div key={slide.id} className="w-96 flex-shrink-0 bg-white rounded-lg">
-              <img className="card-image rounded-t-lg w-full h-64" src={slide.image} alt="" />
-              <div className="py-4 px-8">
-                <h1 className="hover:cursor-pointer mt-2 text-gray-900 font-bold text-2xl tracking-tight card-title">
-                  {slide.title}
-                </h1>
-                <p className="hover:cursor-pointer py-3 text-gray-600 leading-6 card-description">
-                  {slide.description}
-                </p>
-              </div>
+    <div className="flex items-center relative">
+      <button onClick={scrollLeft} className="absolute left-0 z-10 p-2 bg-white rounded-full shadow-lg">
+        &lt;
+      </button>
+      <div ref={scrollContainerRef} className="flex overflow-x-scroll space-x-4 p-4">
+        {slides.map(slide => (
+          <div id="card-container" key={slide.id} className="flex-none w-64 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div className="flex justify-center">
+              <img className="rounded-t-lg" src={slide.image} alt={slide.title} />
             </div>
-          ))}
-        </div>
-        <button onClick={scrollRight} className="arrow-button right-arrow">
-          &gt;
-        </button>
+            <div className="p-5">
+              <a href="#">
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{slide.title}</h5>
+              </a>
+              <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">{slide.description}</p>
+              <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                Read more
+                <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                  <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        ))}
       </div>
+      <button onClick={scrollRight} className="absolute right-0 z-10 p-2 bg-white rounded-full shadow-lg">
+        &gt;
+      </button>
+    </div>
   );
 };
 
