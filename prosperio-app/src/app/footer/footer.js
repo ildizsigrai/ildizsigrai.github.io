@@ -113,22 +113,26 @@ function FooterComponent() {
                 Hasznos linkek
               </h6>
               <p className="mb-4">
-                <a className="text-neutral-600 dark:text-neutral-200"
-                >Rólunk</a>
+              <a href="#rolunk" className="text-neutral-600 dark:text-neutral-200">
+                Rólunk
+              </a>
               </p>
               <p className="mb-4">
-                <a className="text-neutral-600 dark:text-neutral-200"
-                >Szolgáltatások</a>
+              <a href="#szolgaltatasok" className="text-neutral-600 dark:text-neutral-200">
+                Szolgáltatások
+              </a>
               </p>
-              <p className="mb-4">
-                <a className="text-neutral-600 dark:text-neutral-200"
-                >Aktuális pályázatok</a>
-              </p>
-              <p>
-                <a className="text-neutral-600 dark:text-neutral-200"
-                >Kapcsolat</a>
-              </p>
-            </div>
+            <p className="mb-4">
+              <a href="#palyazatok" className="text-neutral-600 dark:text-neutral-200">
+                Aktuális pályázatok
+              </a>
+            </p>
+            <p>
+              <a href="#kapcsolat" className="text-neutral-600 dark:text-neutral-200">
+                Kapcsolat
+              </a>
+            </p>
+          </div>
             {/* <!-- Contact section --> */}
             <div>
               <h6
