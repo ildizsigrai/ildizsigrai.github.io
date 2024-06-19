@@ -32,7 +32,7 @@ function SzolgaltatasComponent() {
       <div className="card-container">
         <h5 className="title">PROJEKTMENEDZSMENT</h5>
         <p className="description">
-          A pozitív támogatói döntések után, annak érdekében, hogy a megítélt támogatást teljes
+          Pozitív támogatói döntések után, annak érdekében, hogy a megítélt támogatást teljes
           mértékben, szabályszerűen le lehessen hívni, projektmenedzsment szolgáltatásunkkal állunk
           ügyfeleink rendelkezésére. Ennek keretén belül szakértőink végig kísérik a projektek
           megvalósítását és szakmai támogatást nyújtanak a támogatás szabályszerű
@@ -56,7 +56,7 @@ function SzolgaltatasComponent() {
       <div className="card-container">
         <h5 className="title">TŐKEBEVONÁSI TANÁCSADÁS</h5>
         <p className="description">
-          A pályázati források nem minden esetben az elérhető legjobb konstrukciók a vállalatok
+          Pályázati források nem minden esetben az elérhető legjobb konstrukciók a vállalatok
           növekedésének támogatására. Tanácsadói tevékenységünk keretén belül segíteni tudjuk az
           olyan nagy növekedési potenciállal rendelkező induló vállalkozások tőkebevonását,
           amelyeknek életszakaszukból adódóan fejlesztéseik megvalósításához jobban illeszkedik

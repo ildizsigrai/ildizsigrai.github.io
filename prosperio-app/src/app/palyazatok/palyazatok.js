@@ -52,7 +52,7 @@ function PalyazatokComponent() {
           időszakba.
         </p>
         <p className="b-description">
-          A PROSPERIO szakemberei nagy tapasztalattal rendelkeznek hazai és uniós forrásból
+          PROSPERIO szakemberei nagy tapasztalattal rendelkeznek hazai és uniós forrásból
           támogatott kutatás-fejlesztési projektek megvalósításában a KKV, illetve a nagyvállalati
           szektorban is. Számos egyetemmel, kutatóintézettel kapcsolatban állunk, segíteni tudunk a
           kapcsolatépítésben, legyen szó akár konzorciumi együttműködésről vagy csak egy
