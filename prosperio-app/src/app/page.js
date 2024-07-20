@@ -7,6 +7,8 @@ import BemutatkozasComponent from './bemutatkozas/bemutatkozas';
 import SzolgaltatasComponent from './szolgaltatasok/szolgaltatasok';
 import PalyazatokComponent from './palyazatok/palyazatok';
 import CardComponent from './szolgaltatasok/cards/card';
+import ContactComponent from './contact/contact';
+
 import './globals.css';
 
 export default function Home() {
@@ -31,7 +33,12 @@ export default function Home() {
       <div id="cards">
         <CardComponent />
       </div>
-      <FooterComponent />
+      <div id="kapcsolat">
+        <ContactComponent />
+      </div>
+      <div id="">
+        <FooterComponent />
+      </div>
     </>
   );
 }
