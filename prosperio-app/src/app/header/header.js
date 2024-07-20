@@ -14,7 +14,7 @@ export default function HeaderComponent() {
       <Navbar.Toggle />
       <Navbar.Collapse>
         <Navbar.Link href="/" active>
-          Home
+          Főoldal
         </Navbar.Link>
         <Navbar.Link>
           <a href="#rolunk">Rólunk</a>
