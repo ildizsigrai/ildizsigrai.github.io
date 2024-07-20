@@ -2,9 +2,9 @@ import Image from 'next/image';
 import heroImage from '../../assets/hero_image.jpg';
 
 const links = [
-  { name: 'Szolgáltatások', href: '#' },
-  { name: 'Célunk', href: '#' },
-  { name: 'Kapcsolat', href: '#' },
+  { name: 'Szolgáltatások', href: '#szolgaltatasok' },
+  { name: 'Pályázatok', href: '#palyazatok' },
+  { name: 'Kapcsolat', href: '#kapcsolat' },
 ];
 const stats = [
   { name: 'Év tapasztalat', value: '12' },
