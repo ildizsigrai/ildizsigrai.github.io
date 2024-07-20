@@ -61,10 +61,6 @@ const CardComponent = () => {
     }
   ];
 
-slides.forEach(slide => {
-  console.log(slide.link);
-});
-
   const scrollLeft = () => {
     scrollContainerRef.current.scrollBy({ left: -300, behavior: 'smooth' });
   };
@@ -76,7 +72,6 @@ slides.forEach(slide => {
   const openImageModal = (image, e) => {
     e.preventDefault(); // Prevent the default behavior (following the link)
     setSelectedImage(image);
-    console.log(image);
   };
 
   const closeImageModal = () => {
@@ -125,7 +120,9 @@ slides.forEach(slide => {
       {selectedImage && (
       <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-gray-900 bg-opacity-50 z-50">
         <div className="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-lg">
-          <img src={selectedImage} alt="Enlarged" className="max-w-full max-h-full" />
+          <div className="overflow-auto max-h-screen py-8 px-4">
+            <img src={selectedImage} alt="Enlarged" className="max-w-full" />
+          </div>
           <button onClick={closeImageModal} className="absolute top-4 right-4 p-2 bg-white rounded-full shadow-lg">
             <svg className="w-6 h-6 text-gray-900" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
               <path d="M6 18L18 6M6 6l12 12" />
