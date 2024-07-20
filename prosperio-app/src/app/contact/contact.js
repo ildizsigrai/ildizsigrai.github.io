@@ -1,5 +1,5 @@
 import React from 'react';
-import {mapImage} from '../../assets/map.jpg'
+import Image from 'next/image';
 
 function ContactComponent() {
   return (
@@ -77,7 +77,13 @@ function ContactComponent() {
           </div>
         </div>
         <div className="mt-12">
-          <img src={mapImage} alt="Map" className="w-full h-auto" />
+        <Image
+          src="/map.jpg" 
+          alt="Map"
+          layout="responsive"
+          width={1200}
+          height={800}
+        />
         </div>
       </div>
     </div>
