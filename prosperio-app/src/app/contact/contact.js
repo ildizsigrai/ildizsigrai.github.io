@@ -6,12 +6,11 @@ function ContactComponent() {
     <div className="bg-white dark:bg-gray-900">
       <div className="container px-6 py-12 mx-auto">
         <div className="text-center">
-          <p className="font-medium text-blue-700 dark:text-blue-400 text-2xl">Lépjen velünk kapcsolatba!</p>
-          <h1 className="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl dark:text-white"> </h1>
+          <p className="font-medium text-lightBlue dark:text-blue-400 text-2xl">Lépjen velünk kapcsolatba!</p>
         </div>
         <div className="grid grid-cols-1 gap-12 mt-10 md:grid-cols-2 lg:grid-cols-3">
           <div className="flex flex-col items-center justify-center text-center">
-            <span className="p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
+            <span className="p-3 text-lightBlue rounded-full bg-blue-100/80 dark:bg-gray-800">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -28,10 +27,10 @@ function ContactComponent() {
               </svg>
             </span>
             <h2 className="mt-4 text-lg font-medium text-gray-800 dark:text-white">EMAIL</h2>
-            <a className="link mt-2 text-blue-500 dark:text-blue-400" href="mailto:info@prosperio.hu">info@prosperio.hu</a>
+            <a className="link mt-2 text-lightBlue dark:text-blue-400" href="mailto:info@prosperio.hu">info@prosperio.hu</a>
           </div>
           <div className="flex flex-col items-center justify-center text-center">
-            <span className="p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
+            <span className="p-3 text-mediumBlue rounded-full bg-blue-100/80 dark:bg-gray-800">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -54,14 +53,14 @@ function ContactComponent() {
             </span>
             <h2 className="mt-4 text-lg font-medium text-gray-800 dark:text-white">CÍM</h2>
             <a 
-              className="mt-2 text-blue-500 dark:text-blue-400"
+              className="mt-2 text-lightBlue dark:text-blue-400"
               href="https://www.google.com/maps?q=47.47222990525714,19.072858580889047"
               target="_blank"
               rel="noopener noreferrer" 
             >1095 Budapest, Soroksári út 48. 18. ép. 1. em.</a>
           </div>
           <div className="flex flex-col items-center justify-center text-center">
-            <span className="p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
+            <span className="p-3 text-lightBlue rounded-full bg-blue-100/80 dark:bg-gray-800">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -78,7 +77,7 @@ function ContactComponent() {
               </svg>
             </span>
             <h2 className="mt-4 text-lg font-medium text-gray-800 dark:text-white">TELEFON</h2>
-            <a className="mt-2 text-blue-500 dark:text-blue-400" href="tel:+36300982652">+36 30 098 2652</a>
+            <a className="mt-2 text-lightBlue dark:text-blue-400" href="tel:+36300982652">+36 30 098 2652</a>
           </div>
         </div>
         <div className="mt-12">
