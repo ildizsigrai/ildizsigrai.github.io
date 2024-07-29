@@ -4,9 +4,7 @@ import './BemutatkozasComponent.css';
 function BemutatkozasComponent() {
   return (
     <div className="container">
-      <div className="b-heading">
-        <h1>RÓLUNK</h1>
-      </div>
+      <h1 className="text-4xl md:text-5xl lg:text-6xl">Rólunk</h1>
       <div className="desc-container">
         <p className="b-description">
           A PROSPERIO a hazai üzleti tanácsadó szektor friss szereplője. Szakértőink tíz éves szakmai

@@ -6,7 +6,7 @@ function SzolgaltatasComponent() {
     <div id="services" className="section relative pt-20 pb-8 md:pt-16 md:pb-0 bg-white">
       <div className="container xl:max-w-6xl mx-auto px-4">
         <header className="text-center mx-auto mb-12 lg:px-20">
-          <h1 className="b-heading">Szolgáltatásaink</h1>
+          <h1 className="text-4xl md:text-5xl lg:text-6xl">Szolgáltatásaink</h1>
           <svg
             version="1.1"
             xmlns="http://www.w3.org/2000/svg"
