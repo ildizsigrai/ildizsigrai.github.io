@@ -15,9 +15,6 @@ export default function Home() {
   return (
     <>
       <HeaderComponent />
-      <div id="hero">
-        <HeroComponent />
-      </div>
       <div id="rolunk">
         <RolunkComponent />
       </div>
