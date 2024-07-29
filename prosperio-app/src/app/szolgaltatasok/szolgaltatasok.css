@@ -1,62 +1,84 @@
+/* Container for the entire section */
 .sz-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
-    padding: 2rem;
+    padding: 1rem;
     margin-bottom: auto;
-    background-color: #3E8CB8;
-  }
-  
-  /* Style h4 and p as the title and description */
-  h4,
-  .sz-heading {
+    background-image: radial-gradient(circle, #3e8cb8, #c7e6f6); /* Updated background style */
+}
+.b-heading {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.b-heading h1 {
+  font-size: 2.5rem;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 4px solid #007bff;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+/* Style for the headings */
+h4,
+.sz-heading {
     margin: 1.75rem;
     font-size: 1.25rem;
     font-weight: 700;
     color: #2d3748;
     text-align: center;
     padding: 1rem;
-  }
+}
 
-  .card-container {
-    flex: 0 0 calc(50% - 1rem); /* Set width for two cards in a row */
-    max-width: calc(50% - 1rem); /* Set max-width for responsiveness */
-    padding: 1rem; /* Increase padding for more space inside the cards */
-    background-color: #ffffff;
+/* Style for each card container */
+.card-container {
+    width: 120px; /* Adjust width */
+    height: 120px; /* Adjust height */
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
     border: 1px solid #e2e8f0;
-    border-radius: 1rem;
+    border-radius: 50%; /* Makes the card circular */
+    background-color: #ffffff;
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
     transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, transform 0.2s ease-in-out;
     text-decoration: none;
     color: #2d3748;
-  }
-  
-  .card-container:hover {
+    overflow: hidden; /* Ensures content stays within the circle */
+}
+
+/* Hover effect for the cards */
+.card-container:hover {
     background-color: #edf2f7;
     border-color: #cbd5e0;
     transform: translateY(-2px);
-  }
-  
-  .title {
-    margin-bottom: 1rem;
-    font-size: 1.5rem;
+}
+
+/* Style for the title inside the card */
+.title {
+    font-size: 1rem; /* Adjusted font size */
     font-weight: 700;
     color: #2d3748;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .description {
-    font-size: 1rem;
+    text-align: center;
+    margin: 0; /* Remove margin to fit well inside the circle */
+}
+
+/* Style for the description inside the card */
+.description {
+    font-size: 0.875rem; /* Adjusted font size */
     color: #4a5568;
-    margin: 10px;
-  }
-  @media (max-width: 768px) {
+    text-align: center;
+    margin: 0; /* Remove margin to fit well inside the circle */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
     .card-container {
-      flex: 0 0 calc(100% - 1rem);
-      max-width: calc(100% - 1rem);
+        width: 80px; /* Smaller size on mobile */
+        height: 80px; /* Smaller size on mobile */
     }
-  }
+}
