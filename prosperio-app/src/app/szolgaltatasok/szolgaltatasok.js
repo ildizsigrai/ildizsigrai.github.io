@@ -56,7 +56,7 @@ function SzolgaltatasComponent() {
 
         <div className="flex flex-wrap flex-row -mx-4 text-center">
           <div className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp" data-wow-duration="1s">
-            <div className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+            <div className="flex-col justify-between min-h-[250px] py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
               <div className="inline-block text-gray-900 mb-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -76,8 +76,9 @@ function SzolgaltatasComponent() {
             </div>
           </div>
           <div className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
-            <div className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
-              <div className="inline-block text-gray-900 mb-4">
+            <div className="flex-col justify-between min-h-[250px] h-fullpy-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+              
+              <div className="inline-block text-gray-900 mb-4 pt-5">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="2rem"
@@ -97,7 +98,7 @@ function SzolgaltatasComponent() {
             </div>
           </div>
           <div className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
-            <div className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+            <div className="flex-col justify-between min-h-[250px] py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2 card">
               <div className="inline-block text-gray-900 mb-4">
                 <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="lightBlue" class="bi bi-card-checklist" viewBox="0 0 16 16">
                   <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"></path>
