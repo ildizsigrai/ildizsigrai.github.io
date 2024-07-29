@@ -101,7 +101,7 @@ const CardComponent = () => {
               <a
                 href="#"
                 className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-mediumBlue rounded-lg hover:bg-mediumBlue focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                onClick={(e) => openImageModal(slide.link.src, e)} // Pass 'e' to the handler
+                onClick={(e) => openImageModal(slide.link.src, e)}
               >
                 Tudjon meg többet!
                 <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
