@@ -2,34 +2,19 @@ html, body, #root {
   height: 100%;
   margin: 0;
   padding: 0;
-  overflow-x: hidden; /* Prevent horizontal scroll */
+  overflow-x: hidden;
 }
 
 .container {
-  width: 100%; /* Take up full width of viewport */
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 3rem 1.5rem; /* Increased padding for better spacing */
+  padding: 3rem 1.5rem;
   border-radius: 12px;
-  max-width: 1200px; /* Optional: Set max-width for large screens */
-  margin: 0 auto; /* Center the container */
-}
-
-.b-heading {
-  text-align: center;
-  margin-bottom: 1.5rem;
-}
-
-.b-heading h1 {
-  font-size: 2.5rem;
-  color: #333;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  border-bottom: 4px solid #007bff;
-  display: inline-block;
-  padding-bottom: 10px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .desc-container {
@@ -37,20 +22,20 @@ html, body, #root {
 }
 
 .b-description {
-  font-size: 1.25rem; /* Adjust base font size */
+  font-size: 1.25rem;
   color: #666;
   margin-bottom: 1rem;
   text-align: justify;
-  line-height: 1.6; /* Improve readability with slightly increased line height */
+  line-height: 1.6;
 }
 
 .b-description::first-letter {
-  font-size: 2rem; /* Increase size of the first letter */
+  font-size: 2rem;
   font-weight: bold;
-  color: #007bff;
-  margin-right: 0.5rem; /* Reduce margin for better alignment */
+  color: #337599;
+  margin-right: 0.5rem;
   float: left;
-  line-height: 1; /* Match line height for the first letter */
+  line-height: 1;
 }
 
 @media (max-width: 600px) {
